@@ -33,7 +33,16 @@ flash install system
 git clone https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-project
 git clone https://github.com/ValveSoftware/halflife
 git clone https://github.com/id-Software/RTCW-SP
-*^*^*
+<enter the sandman>
+sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda0   
+sudo cryptsetup open /dev/sda0 <Purple0> 
+>file 
+sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size512 luksFormat /dev/sda1   
+sudo cryptsetup open /dev/sda1 <Purple1> 
+>file   
+sudo cryptsetup --hash
+sha512 --verbose --cipher aes-xts-plain --key-size512 luksFormat /dev/sda2   
+sudo cryptsetup open /dev/sdxy <Purple2>
 This is a peace of the puzzle of the maze you are in, Jokes!, 
 )*)
  2 games, Wolfenstien and HalfLife"..,  I put Nethunter in there too, If you click 
